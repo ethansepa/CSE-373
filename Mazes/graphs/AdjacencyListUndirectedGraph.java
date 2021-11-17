@@ -26,7 +26,7 @@ public class AdjacencyListUndirectedGraph<V, E extends BaseEdge<V, E>> implement
      * or edges that would be equal if their directions were flipped).
      *
      * @param edges The edges in the graph.
-     * @throws NullPointerException if edges is null or contains null entries
+     * @throws NullPointerException if edges is null or contains null entries 
      */
     public AdjacencyListUndirectedGraph(Collection<E> edges) {
         this.allEdges = new ArrayList<>();
