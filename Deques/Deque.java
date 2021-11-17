@@ -4,7 +4,7 @@ import java.util.Queue;
 
 /**
  * A custom deque interface.
- *
+ * 
  * Does not support null items, but also doesn't explicitly check for nulls.
  * Technically, all methods defined in this file should work with null values, but other methods
  * inherited from Queue may not behave as expected after nulls are added.
